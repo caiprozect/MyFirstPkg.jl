@@ -1,5 +1,7 @@
 module MyFirstPkg
 
-greet() = print("Hello World!")
+my_f(x) = 2x + 3
+
+export my_f
 
 end # module

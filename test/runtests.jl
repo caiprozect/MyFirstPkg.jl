@@ -2,5 +2,5 @@ using MyFirstPkg
 using Test
 
 @testset "MyFirstPkg.jl" begin
-    # Write your own tests here.
+    @test my_f(3) == 9
 end
